@@ -1,0 +1,175 @@
+sus links:
+https://fresources.tech/api/
+https://fresources.tech/api/get-updates
+https://fresources.tech/api/upload-playlist
+https://fresources.tech/bakshi
+https://fresources.tech/bakshi/rename
+https://fresources.tech/bakshi/login
+https://fresources.tech/api/auth/user
+https://fresources.tech/api/auth/password --> POST Perform
+
+POST:
+curl 'https://fresources.tech/api/auth/password' \
+  -H 'authority: fresources.tech' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9,hi;q=0.8,la;q=0.7' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'dnt: 1' \
+  -H 'origin: https://fresources.tech' \
+  -H 'referer: https://fresources.tech/bakshi/login' \
+  --data-raw '{"password":"krrish_malhotra"}' \
+
+
+https://fresources.tech/proxima
+
+
+https://fresources.tech/site.webmanifest
+
+https://fresources.tech/_next/static/A5JZBus6qTcCcod1EoyD7/_buildManifest.js --> Exposes login directory
+      
+      self.__BUILD_MANIFEST = function(e, s, a, c) {
+    return {
+        __rewrites: {
+            beforeFiles: [],
+            afterFiles: [],
+            fallback: []
+        },
+        "/": [e, s, a, c, "static/chunks/pages/index-e34e7d6a4296642b.js"],
+        "/_error": ["static/chunks/pages/_error-a4ba2246ff8fb532.js"],
+        "/bakshi": [e, "static/chunks/537-c19fa80033469f58.js", "static/chunks/pages/bakshi-fcfa7fd22dfc730d.js"],
+        "/bakshi/login": [e, s, "static/chunks/pages/bakshi/login-ae776c0c8b1dacec.js"],
+        "/bakshi/rename": [e, "static/chunks/pages/bakshi/rename-dfeddc997f384d78.js"],
+        "/contributor": [a, "static/chunks/pages/contributor-0ee18f86dcd2340a.js"],
+        "/proxima": [s, "static/chunks/pages/proxima-10ee70796ffea66a.js"],
+        "/[collegeId]": [e, s, a, c, "static/chunks/pages/[collegeId]-dd4f3530f2b02ff0.js"],
+        "/[collegeId]/[branch]": [e, s, a, c, "static/chunks/pages/[collegeId]/[branch]-d940ff5c4f9b2096.js"],
+        "/[collegeId]/[branch]/[course]": [e, s, a, c, "static/chunks/pages/[collegeId]/[branch]/[course]-ccafcd4ca6555e2d.js"],
+        "/[collegeId]/[branch]/[course]/file": ["static/chunks/pages/[collegeId]/[branch]/[course]/file-e08e766e4f1443dc.js"],
+        sortedPages: ["/", "/_app", "/_error", "/bakshi", "/bakshi/login", "/bakshi/rename", "/contributor", "/proxima", "/[collegeId]", "/[collegeId]/[branch]", "/[collegeId]/[branch]/[course]", "/[collegeId]/[branch]/[course]/file"]
+    }
+}("static/chunks/664-fe1f0ac1dd157bd4.js", "static/chunks/762-83dc5dc043acea96.js", "static/chunks/675-43190f830ccd33e3.js", "static/chunks/897-49a0d2a719567791.js"), self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB();
+        
+        
+        
+        
+https://fresources.tech/_next/static/A5JZBus6qTcCcod1EoyD7/_ssgManifest.js
+      self.__SSG_MANIFEST = new Set(["\u002F", "\u002F[collegeId]", "\u002F[collegeId]\u002F[branch]"]);
+      self.__SSG_MANIFEST_CB && self.__SSG_MANIFEST_CB()
+      
+      
+https://fresources.tech/_next/image --> url param required
+https://fresources.tech/_next/image?url=
+URL Parameter NOT ALLOWED with https
+Invalid without it and for anything else
+
+
+https://fresources.tech/_next/data/
+https://fresources.tech/_next/static/
+https://fresources.tech/_next/static/chunks/
+https://fresources.tech/_next/static/chunks/pages/
+https://fresources.tech/_next/static/A5JZBus6qTcCcod1EoyD7/
+
+https://fresources.tech/_next/data/A5JZBus6qTcCcod1EoyD7/dtu.json?collegeId=dtu
+
+https://fresources.tech/_next/data/A5JZBus6qTcCcod1EoyD7/index.json --> contains list of colleges and IDs and whatnot
+
+
+
+https://fresources.tech/static/images/home.svg
+https://fresources.tech/static/images/notif.svg
+https://fresources.tech/down-arrow.png
+
+https://fresources.tech/public/image/random.png
+
+https://fresources.tech/_next/image?url=%2Fpublic%2Fimage%2Frandom.png&w=32&q=75
+https://fresources.tech/_next/image?url=&w=32&q=75
+
+https://fresources.tech/_next/static/chunks/pages/[collegeId]-dd4f3530f2b02ff0.js
+https://fresources.tech/_next/static/chunks/pages/[collegeId]/[branch]-d940ff5c4f9b2096.js
+https://fresources.tech/_next/static/chunks/pages/[collegeId]/[branch]/[course]-ccafcd4ca6555e2d.js
+https://fresources.tech/_next/static/chunks/pages/[collegeId]/[branch]/[course]/file-e08e766e4f1443dc.js
+
+In Action --> https://fresources.tech/dtu/coe/Data%20Structures/file?fileId=https%3A%2F%2Fdata-storage.sgp1.digitaloceanspaces.com%2FDTU%2FData%2520Structure%2520Analysis.pdf
+
+
+
+
+
+
+
+
+
+
+sample json files for college ID to make sense of IDs in the urls
+
+NSUT Example
+
+{"pageProps":{"college":"nsut","branches":[{"id":"63066b809cbab109372b824f","name":"CSIOT","collegeId":"63066b809cbab109372b824e","courseIds":["63066b809cbab109372b8250","63066b819cbab109372b8253"]},{"id":"63066b819cbab109372b8254","name":"BIOTECH","collegeId":"63066b809cbab109372b824e","courseIds":["63066b819cbab109372b8255"]}]},"__N_SSG":true}
+
+
+
+https://fresources.tech/? --> in search, search implementation is incomplete
+it was supposed to accept a payload but it didn't so common dorks can be used to try out a payload injection
+
+most probably, the parmeter would be ?q="fresources.tech"
+
+Some dorks
+
+/{payload}
+
+?next=
+
+?url=
+
+?target=
+
+?rurl=
+
+?dest=
+
+?destination=
+
+?redir=
+
+redirect_uri=
+
+?redirect_url=
+
+?redirect=
+
+/redirect/
+
+cgi-bin/redirect.cgi?{}
+
+/out/
+
+/out?
+
+?view=
+
+/login?to=
+
+?image_url=
+
+?go=
+
+?return=
+
+?returnTo=
+
+?return_to=
+
+?checkout_url=
+
+Common Parameters
+
+dest, redirect, uri, path, continue, url, window, to, out, view, dir, show, navigation, Open, url, file, val, validate, domain, callback, return, page, feed, host, port, next, data, reference, site, html
+
+
+
+sus directories:
+https://fresources.tech/cgi-bin --> CODE 308
+https://fresources.tech/_vti_bin/_vti_aut/author.dll, 200
+https://fresources.tech/_vti_bin/_vti_adm/admin.dll, 200
+
+
