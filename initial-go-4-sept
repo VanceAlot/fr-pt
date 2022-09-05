@@ -6,7 +6,7 @@ https://fresources.tech/bakshi
 https://fresources.tech/bakshi/rename
 https://fresources.tech/bakshi/login
 https://fresources.tech/api/auth/user
-https://fresources.tech/api/auth/password --> POST Perform
+https://fresources.tech/api/auth/password --> POST
 
 POST:
 curl 'https://fresources.tech/api/auth/password' \
@@ -17,15 +17,15 @@ curl 'https://fresources.tech/api/auth/password' \
   -H 'dnt: 1' \
   -H 'origin: https://fresources.tech' \
   -H 'referer: https://fresources.tech/bakshi/login' \
-  --data-raw '{"password":"krrish_malhotra"}' \
+  --data-raw '{"password":"RRd@VD^N5n4Gr7lyJ%9W8BdB2s9XeVIV"}' \
 
 
-https://fresources.tech/proxima
+https://fresources.tech/proxima --> delete files, requires seperate pswd auth according to auth.js
 
 
 https://fresources.tech/site.webmanifest
 
-https://fresources.tech/_next/static/A5JZBus6qTcCcod1EoyD7/_buildManifest.js --> Exposes login directory
+https://fresources.tech/_next/static/A5JZBus6qTcCcod1EoyD7/_buildManifest.js --> Exposes login directory ***without*** any need for social engg. the employees
       
       self.__BUILD_MANIFEST = function(e, s, a, c) {
     return {
